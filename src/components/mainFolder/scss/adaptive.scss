@@ -1,0 +1,144 @@
+ /* @media only screen and (max-width: 1500px) {} */
+ @media only screen and (max-width: 1200px) {}
+
+ @media only screen and (max-width: 992px) {
+     .text-area {
+         margin-top: 50px;
+     }
+ }
+
+ @media only screen and (max-width: 768px) {
+     .card-content_btn {
+         top: 80%;
+     }
+
+     
+
+      .main_img-area{
+        margin-bottom: 60px;
+    }
+ }
+
+ @media only screen and (max-width: 480px) {
+    
+    .text-area {
+        display: none;
+       }
+     .card-content {
+         min-height: 300px !important;
+         min-width: 250px !important;
+         margin-bottom: 30px;
+         margin-top: -80px;
+         & h2 {
+             font-size: 60px;
+             margin-bottom: 30px;
+         }
+         & p{
+             font-size: 35px;
+             padding: 10px;
+             text-align: center;
+         }
+         
+        & img{
+    width: 150px;
+}
+& .show-btn {
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 30px !important;
+    margin-bottom: 40px;
+}
+& .card-content_btn{
+    top: 78%;
+    & .button-area {
+        button {
+            height: 50px;
+            font-size: 20px;
+        }
+    }
+    & .close-btn{
+        font-size: 20px;
+        margin-left: -5px;
+    }
+}
+
+     }
+     .wrapper{
+        .main_text-area {
+            margin-bottom: 120px !important;
+            align-items: center;
+            & h1{
+                font-size: 50px;
+                margin-bottom: 40px;
+                text-shadow: 1px 1px black;
+            }
+            & .download-btn{
+                width: 300px;
+                font-size: 45px;
+                border-radius: 30px;
+            }
+        }
+        & .main_img-area{
+            margin-bottom: 60px;
+            & img{
+                width: 400px;
+            }
+        }
+     }
+     
+
+ }
+
+ @media only screen and (max-width: 320px) {
+    .main_img-area{
+        margin-bottom: 60px;
+        & img{
+            width: 200px !important;
+            margin: 0 !important;
+        }
+    }
+    .download-btn {
+        font-size: 30px !important;
+        width: 250px !important;
+    }
+    .main_text-area{
+        & h1{
+            font-size: 30px !important;
+        }
+    }
+    li {
+        font-size: 15px !important;
+    }
+    .card-content{
+        max-width: 200px !important;
+        min-width: 250px !important;
+        margin-bottom: 80px !important;
+        & h2{
+            font-size: 30px !important;
+        }
+        & p{
+            font-size: 20px !important;
+        }
+        & .show-btn {
+            width: 200px !important;
+            font-size: 20px !important;
+        }
+        & .close-btn {
+            min-width: 20px !important;
+            font-size: 15px !important;
+        }
+        &_btn{
+            flex-wrap: nowrap !important;
+            max-width: 290px !important;
+            top: 90%;
+        }
+    }
+    .button-area {
+        & button {
+            font-size: 15px !important;
+            width: 100px !important;
+        }
+        
+    }
+ }
